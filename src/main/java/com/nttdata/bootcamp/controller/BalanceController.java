@@ -74,7 +74,7 @@ public class BalanceController {
 		return updateTransfer;
 
 	}
-	
+
 
 	private Mono<Balance> fallBackGetMovement(Exception e){
 		Balance balance = new Balance();
